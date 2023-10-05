@@ -15,11 +15,6 @@ jobs:
           distribution: 'adopt'
       - name: Test with Maven
         run: mvn --batch-mode --update-snapshots package
-  test:
-    stage: test
-    script:
-      - mvn $MAVEN_CLI_OPTS test
-
 
   maven_test:
     runs-on: ubuntu-latest
