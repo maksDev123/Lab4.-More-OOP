@@ -13,5 +13,6 @@ public class Demo {
         manager.fight(new Elf(), new Knight());
         manager.fight(new King(), new Knight());
 
+        
     }
 }
