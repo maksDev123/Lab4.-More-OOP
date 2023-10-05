@@ -9,7 +9,7 @@ public abstract class Noble extends Character{
     
     public Noble(int min, int max, KickStrategy strategy){
         
-        super(rand.nextInt(min, max), rand.nextInt(min, max), strategy);
+        super(rand.nextInt(max - min) + min + 1, rand.nextInt(max - min) + min + 1, strategy);
     }
 
 }
