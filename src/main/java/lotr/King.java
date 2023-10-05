@@ -4,7 +4,7 @@ public class King extends Noble{
 
     
     public King(){
-        super(2, 12, new NobleKick());
+        super(5, 15, new NobleKick());
     }
 
    
